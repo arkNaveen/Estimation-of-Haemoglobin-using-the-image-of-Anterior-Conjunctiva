@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 gend=input("Enter m if Male or f for Female - ")
-image = cv.imread('rakesh.jpeg')
+image = cv.imread('ENter your path here')
 gray = cv.cvtColor(image,cv.COLOR_BGR2GRAY)
 cv.imshow("Original",image)
 nonoise = cv.GaussianBlur(gray, (7, 7), 0)  #reduces noise
